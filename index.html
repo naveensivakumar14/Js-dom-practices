@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM</title>
+</head>
+<body>
+
+    <h2 id="text">Walgreens</h2>
+    <h3 class="city1">Cambridge</h3>
+    <h3 class="city2">Boston</h3>
+    <p>Welcome to CVS Pharmacy</p>
+
+    <ul>
+        <li>Cabbage</li>
+        <li>Capsicum</li>
+        <li>Cucumber</li>
+        <li>Carot</li>
+        <li>ColiFlower</li>
+    </ul>
+
+    <script>
+
+        //getElementsById
+        var firstPara=document.getElementById("text");
+        console.log(firstPara.textContent)
+
+         //querySelector
+         var cityname=document.querySelector(".city1")   //using class selector
+         var company=document.querySelector("#text")    //using id selector
+         var cvs=document.querySelector("p")            //using tag name
+         console.log(cityname.textContent)
+         console.log(company.textContent)
+         console.log(cvs.textContent)
+
+        //getElementsByClassName
+        var city=document.getElementsByClassName("city1");
+        console.log(city[0].textContent)
+        var city2=document.getElementsByClassName("city2");
+        console.log(city2[0].textContent)
+
+
+
+        //getElementsByTagName
+        var listItems=document.getElementsByTagName("li");
+        for(var i=0;i<listItems.length;i++){
+            console.log("using getElementsByTagName - ",listItems[i].textContent)
+        }
+    </script>
+</body>
+</html>
