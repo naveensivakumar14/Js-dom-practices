@@ -1,0 +1,49 @@
+JS Basics
+--------------------------------
+
+1.Variables
+2.Data Types
+3.Constants
+4.Functions
+5.Conditionals
+6.Loops
+7.Arrays
+8.Objects
+9.Events
+10.DOM Manipulation
+11.ES6 Features
+
+ES6 JavaScript
+---------------------------------------
+
+1.Arrow Functions
+2.Template Literals
+3.Destructuring Assignment
+4.Default Parameters
+5.Rest and Spread Operators
+6.Classes
+7.Modules
+8.Let and Const
+9.Promises
+10.Map and Set, Filter
+11.Symbols
+12.Iterators and Generators
+13.Block-Scoped Functions
+
+
+--------------------------------------------------------
+
+Different Types of JavaScript functions
+
+Named Functions: Regular functions with a name.
+Anonymous Functions: Functions without a name, usually assigned to variables.
+Arrow Functions: Concise syntax, no this context.
+IIFE: Functions that execute immediately upon definition.
+Higher-Order Functions: Functions that take other functions as arguments.
+Callback Functions: Functions passed to another function and executed later.
+Constructor Functions: Functions used to create objects.
+Generator Functions: Functions that can pause and resume execution.
+Async Functions: Functions that handle asynchronous operations using promises and await.
+Recursive Functions: Functions that call themselves.
+Rest Parameters Functions: Functions that accept an indefinite number of arguments.
+Default Parameters: Functions that provide default values for parameters.
