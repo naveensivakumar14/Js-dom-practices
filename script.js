@@ -1,27 +1,13 @@
-// //Named function
-function greeting(){
-    console.log("Good morning")
+
+//Anonymous function
+var movie=function(movieName){
+    return movieName
 }
-greeting()
+console.log(movie("Vikram"));
 
-//Functions with expression
-var msg=function(){
-    console.log("Today is Holiday");
+//Arrow function 
+var greet=(user)=>{
+    console.log("Welcome",user)
 }
-msg()
 
-
-//anonymous function
-console.log("setTimeout function wait for 2s")
-setTimeout(function() {
-    console.log('This is an anonymous function');
-  }, 2000);
-  
-
-//anonymous function
-var role="Full Stack Developer"
-var job=function(){
-    console.log(role);
-}
-console.log(job) //[Function: job]
-job() //Full Stack Developer
+greet("Vicky")
