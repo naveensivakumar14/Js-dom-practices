@@ -16,9 +16,7 @@ console.log(user("Hitesh"))
     console.log(`Hello ${userName}`);
 }("Ajay"))
 
-// Higher Order Functions 
-
-
+// Higher Order Functions or callback function
 function naveen(task){
      // Performing some operations
     console.log("Hey Naveen")
