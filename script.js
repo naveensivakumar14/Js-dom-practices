@@ -17,15 +17,12 @@ console.log(user("Vijay"))
     console.log(`Hello ${userName}`);
 }("Ajay"))
 
-<<<<<<< HEAD
-//Hello Ajay
 
 
 
-// Higher Order Functions or Call back function
-=======
+
 // Higher Order Functions or callback function
->>>>>>> 535640a6f56fad881ae90b86d21d8ba539e64d7a
+
 function naveen(task){
      // Performing some operations
     console.log("Hey Naveen")
