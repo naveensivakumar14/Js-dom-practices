@@ -47,3 +47,37 @@ Async Functions: Functions that handle asynchronous operations using promises an
 Recursive Functions: Functions that call themselves.
 Rest Parameters Functions: Functions that accept an indefinite number of arguments.
 Default Parameters: Functions that provide default values for parameters.
+
+
+
+JS for Web Development
+------------------------------------------------------------------
+Variables and Data Types
+Operators
+Functions
+Control Structures (If/Else, Switch)
+Loops (For, While, Do-While)
+Objects and Arrays
+DOM Manipulation
+Event Handling
+Closures
+Promises
+Async/Await
+Callbacks
+Scope (Global, Local, Block)
+Hoisting
+This Keyword
+Prototype and Prototypal Inheritance
+ES6+ Features (Arrow Functions, Template Literals, etc.)
+Modules (Import/Export)
+Error Handling (Try/Catch)
+JSON (JavaScript Object Notation)
+Fetch API & XMLHttpRequest
+LocalStorage and SessionStorage
+JavaScript Event Loop
+Debouncing and Throttling
+JavaScript Design Patterns
+Object-Oriented Programming (OOP) in JavaScript
+JavaScript Frameworks and Libraries (React, Angular, Vue)
+JavaScript Testing (Jest, Mocha)
+Browser APIs (Geolocation, Notifications, etc.)

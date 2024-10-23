@@ -1,24 +1,27 @@
 
 // Anonymous function (nameless function)
-var movie=function(movieName){
-    return movieName
+var exam=function(subject){
+    return subject
 }
-console.log(movie("Vikram"));
+console.log(movie("Maths"));
 
 // Arrow function 
 var greet=(user)=>{
     console.log("Welcome",user)
 }
-console.log(user("Hitesh"))
+console.log(user("Vijay"))
+
 
 // Immediately Invoked function Expression 
 (function userLogin(userName){
     console.log(`Hello ${userName}`);
 }("Ajay"))
 
-// Higher Order Functions 
+//Hello Ajay
 
 
+
+// Higher Order Functions or Call back function
 function naveen(task){
      // Performing some operations
     console.log("Hey Naveen")
