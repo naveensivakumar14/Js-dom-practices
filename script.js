@@ -19,15 +19,21 @@ console.log(user("Vijay"))
 }("Ajay"))
 
 
+//Higher Order functions
+
+
+
 //callback function
 function naveen(task){
     console.log("Hey Naveen")
      // Calling the callback function
     task()
 }
- // Callback function
+ // Callback 
 function task(){
      console.log("Cook Dinner")
 }
 naveen(task);
+
+//ES6 Practice
 
