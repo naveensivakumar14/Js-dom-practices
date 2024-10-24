@@ -12,28 +12,22 @@ var greet=(user)=>{
 console.log(user("Vijay"))
 
 
+
 // Immediately Invoked function Expression 
 (function userLogin(userName){
     console.log(`Hello ${userName}`);
 }("Ajay"))
 
 
-
-
-
-// Higher Order Functions or callback function
-
+//callback function
 function naveen(task){
-     // Performing some operations
     console.log("Hey Naveen")
      // Calling the callback function
     task()
 }
- // Callback function to be passed to the higher order function
+ // Callback function
 function task(){
      console.log("Cook Dinner")
 }
-
-// Calling the higher order function with the callback function as argument
 naveen(task);
 

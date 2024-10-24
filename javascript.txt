@@ -13,22 +13,9 @@ JS Basics
 10.DOM Manipulation
 11.ES6 Features
 
-ES6 JavaScript
----------------------------------------
 
-1.Arrow Functions
-2.Template Literals
-3.Destructuring Assignment
-4.Default Parameters
-5.Rest and Spread Operators
-6.Classes
-7.Modules
-8.Let and Const
-9.Promises
-10.Map and Set, Filter
-11.Symbols
-12.Iterators and Generators
-13.Block-Scoped Functions
+
+
 
 
 --------------------------------------------------------
@@ -50,34 +37,58 @@ Default Parameters: Functions that provide default values for parameters.
 
 
 
+
+
+ES6 JavaScript
+---------------------------------------
+
+1.Arrow Functions
+2.Template Literals
+3.Destructuring Assignment
+4.Default Parameters
+5.Rest and Spread Operators
+6.Classes
+7.Modules
+8.Let and Const
+9.Promises
+10.Map and Set, Filter
+11.Symbols
+12.Iterators and Generators
+13.Block-Scoped Functions
+
+
+
+
+
+
 JS for Web Development
 ------------------------------------------------------------------
-Variables and Data Types
-Operators
-Functions
-Control Structures (If/Else, Switch)
-Loops (For, While, Do-While)
-Objects and Arrays
-DOM Manipulation
-Event Handling
-Closures
-Promises
-Async/Await
-Callbacks
-Scope (Global, Local, Block)
-Hoisting
-This Keyword
-Prototype and Prototypal Inheritance
-ES6+ Features (Arrow Functions, Template Literals, etc.)
-Modules (Import/Export)
-Error Handling (Try/Catch)
-JSON (JavaScript Object Notation)
-Fetch API & XMLHttpRequest
-LocalStorage and SessionStorage
-JavaScript Event Loop
-Debouncing and Throttling
-JavaScript Design Patterns
-Object-Oriented Programming (OOP) in JavaScript
-JavaScript Frameworks and Libraries (React, Angular, Vue)
-JavaScript Testing (Jest, Mocha)
-Browser APIs (Geolocation, Notifications, etc.)
+1.Variables and Data Types
+2.Operators
+3.Functions
+4.Control Structures (If/Else, Switch)
+5.Loops (For, While, Do-While)
+6.Objects and Arrays
+7.DOM Manipulation
+8.Event Handling
+9.Closures
+10.Promises
+11.Async/Await
+12.Callbacks
+13.Scope (Global, Local, Block)
+14.Hoisting
+15.This Keyword
+16.Prototype and Prototypal Inheritance
+17.ES6+ Features (Arrow Functions, Template Literals, etc.)
+18.Modules (Import/Export)
+19.Error Handling (Try/Catch)
+20.JSON (JavaScript Object Notation)
+21.Fetch API & XMLHttpRequest
+22.LocalStorage and SessionStorage
+23.JavaScript Event Loop
+24.Debouncing and Throttling
+25.JavaScript Design Patterns
+26.Object-Oriented Programming (OOP) in JavaScript
+27.JavaScript Frameworks and Libraries (React, Angular, Vue)
+28.JavaScript Testing (Jest, Mocha)
+29.Browser APIs (Geolocation, Notifications, etc.)
