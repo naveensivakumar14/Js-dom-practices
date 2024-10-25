@@ -1,0 +1,29 @@
+Variables
+
+In JavaScript, a variable is like a storage box where you can save information
+(like a number or a word) to use later in your code. You create a variable using keywords 
+like let, const, or var, and then give it a name.
+
+
+var - Redeclaration, Reinitialization possible
+let - Reinitialization only possible
+const - No Redeclaration, Reinitialization. 
+        once we declare the const variable we can't able to change the value.
+
+//var
+var animal="Tiger"      //Declaration
+animal="Deer"           //Reinitialisation
+var animal="Horse"      //ReDeclaration
+console.log(animal)   
+
+
+//let
+let age=4           //Declaration
+age=3               //Reinitialisation
+console.log(age)
+
+
+//const
+const fly=false
+console.log(fly)
+

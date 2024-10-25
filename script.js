@@ -1,39 +1,18 @@
+//Variables
 
-// Anonymous function (nameless function)
-var exam=function(subject){
-    return subject
-}
-console.log(movie("Maths"));
-
-// Arrow function 
-var greet=(user)=>{
-    console.log("Welcome",user)
-}
-console.log(user("Vijay"))
+//var
+var animal="Tiger"      //Declaration
+animal="Deer"           //Reinitialisation
+var animal="Horse"      //ReDeclaration
+console.log(animal)   
 
 
-
-// Immediately Invoked function Expression 
-(function userLogin(userName){
-    console.log(`Hello ${userName}`);
-}("Ajay"))
-
-
-//Higher Order functions
+//let
+let age=4           //Declaration
+age=3               //Reinitialisation
+console.log(age)
 
 
-
-//callback function
-function naveen(task){
-    console.log("Hey Naveen")
-     // Calling the callback function
-    task()
-}
- // Callback 
-function task(){
-     console.log("Cook Dinner")
-}
-naveen(task);
-
-//ES6 Practice
-
+//const
+const fly=false
+console.log(fly)
