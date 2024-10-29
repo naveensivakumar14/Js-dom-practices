@@ -1,1 +1,8 @@
 
+Arrays
+
+let fruitsBasket= ["Apple", "Orange", "Grapes", "Pineapple", "Watermelon", "Papaya", "Banana", "Strawberry", "Mango"];
+
+fruitsBasket.map((fruit) => {
+    console.log(fruit);
+});
