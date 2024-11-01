@@ -3,6 +3,16 @@ Arrays
 
 let fruitsBasket= ["Apple", "Orange", "Grapes", "Pineapple", "Watermelon", "Papaya", "Banana", "Strawberry", "Mango"];
 
+
+Printing array elements in different ways
+
+
+//map function
 fruitsBasket.map((fruit) => {
     console.log(fruit);
+});
+
+//forEach loop
+fruitsBasket.forEach(function(fruitName){
+    console.log(fruitName)
 });
