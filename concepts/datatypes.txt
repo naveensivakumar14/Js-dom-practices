@@ -1,6 +1,5 @@
 Datatypes
 
-
 var num=25              //Number
 var name="Gokul"        //String
 var percent=89.35       //Number  
