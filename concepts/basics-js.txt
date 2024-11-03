@@ -1,4 +1,19 @@
+
+Basics
+
+1.Variables
+2.Data Types
+3.Constants
+4.Functions
+5.Conditionals
+6.Loops
+7.Arrays
+8.Objects
+
+
+
 Variables
+
 
 In JavaScript, a variable is like a storage box where you can save information
 (like a number or a word) to use later in your code. You create a variable using keywords 
@@ -26,4 +41,19 @@ console.log(age)
 //const
 const fly=false
 console.log(fly)
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+Datatypes
+
+var num=25              //Number
+var name="Gokul"        //String
+var percent=89.35       //Number  
+var eliglible=true      //Boolean
+var data=undefined      //undefined
+var count=null          //object
+var fruits=["Apple","Banana","Grapes"] //array
+var basket={fruitName:"Grapes", price:150, kg:1} //object
 
