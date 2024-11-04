@@ -25,12 +25,15 @@ Different Types of JavaScript functions
 Named Functions: Regular functions with a name.
 Anonymous Functions: Functions without a name, usually assigned to variables.
 Arrow Functions: Concise syntax, no this context.
-IIFE: Functions that execute immediately upon definition.
 Higher-Order Functions: Functions that take other functions as arguments.
 Callback Functions: Functions passed to another function and executed later.
+Async Functions: Functions that handle asynchronous operations using promises and await.
+
+
+
+IIFE: Functions that execute immediately upon definition.
 Constructor Functions: Functions used to create objects.
 Generator Functions: Functions that can pause and resume execution.
-Async Functions: Functions that handle asynchronous operations using promises and await.
 Recursive Functions: Functions that call themselves.
 Rest Parameters Functions: Functions that accept an indefinite number of arguments.
 Default Parameters: Functions that provide default values for parameters.

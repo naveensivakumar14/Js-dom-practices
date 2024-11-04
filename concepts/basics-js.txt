@@ -63,6 +63,19 @@ var basket={fruitName:"Grapes", price:150, kg:1} //object
 
 4. Functions
 
+
+Named functions- 4 Types
+Anonyomous function 
+Arrow functions
+Callback functions
+Higher Order functions
+
+
+
+
+
+
+
 //JavaScript Functions
 
 //Normal functions

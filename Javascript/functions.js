@@ -36,26 +36,26 @@ console.log(movie())
 
 
 //Named functions
-// console.log("Named function")
-// function add(a,b){
-//     console.log(a+b)
-// }
-// add(2,4)
+console.log("Named function")
+function add(a,b){
+    console.log(a+b)
+}
+add(2,4)
 
 //Anonymous functions
-// console.log("\nAnonymous function")
-// const vote = function(age) {
-//     console.log(age >= 18 ? "Eligible to Vote" : "Underage");
-// };
-// vote(20)
-// vote(12)
+console.log("\nAnonymous function")
+const vote = function(age) {
+    console.log(age >= 18 ? "Eligible to Vote" : "Underage");
+};
+vote(20)
+vote(12)
 
 //Arrow functions 
-// console.log("\nArrow function")
-// var greeting=(guest)=>{
-//     console.log("Welcome ",guest);
-// }
-// greeting("Arjun")
+console.log("\nArrow function")
+var greeting=(guest)=>{
+    console.log("Welcome ",guest);
+}
+greeting("Arjun")
 
 //Callback function
 function bill(){
@@ -69,6 +69,6 @@ Cart(bill)
 
 
 //IIFE
-// (function() {
-//     console.log("This function runs immediately!");
-//   })();
+(function() {
+    console.log("This function runs immediately!");
+  })();
