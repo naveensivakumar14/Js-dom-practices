@@ -47,3 +47,14 @@ var biscuits=["GoodDay","Orea","MarieGold","Hide & Seek","Unibic"]
 biscuits.map(function(item){
     console.log(item)
 })
+
+
+var colors=["Red","Black","Green","Orange","Yellow","Blue"]
+
+var selectedColors=colors.map(function(color){
+    if(color=="Black"){
+        console.log("Your",color,"color shirt is available")
+       
+    }
+})
+selectedColors
