@@ -1,5 +1,7 @@
 **JavaScript Practice**
 
+JavaScript Self learning
+
 
 1.Variables and Data Types
 2.Operators
