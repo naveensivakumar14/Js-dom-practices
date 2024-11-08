@@ -58,3 +58,5 @@ var selectedColors=colors.map(function(color){
     }
 })
 selectedColors
+
+
