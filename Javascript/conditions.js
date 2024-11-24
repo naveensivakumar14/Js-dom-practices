@@ -1,27 +1,30 @@
-// let day = 3;
-// let dayName;
 
-// switch (day) {
-//     case 1:
-//         dayName = "Monday";
-//         break;
-//     case 2:
-//         dayName = "Tuesday";
-//         break;
-//     case 3:
-//         dayName = "Wednesday";
-//         break;
-//     case 4:
-//         dayName = "Thursday";
-//         break;
-//     case 5:
-//         dayName = "Friday";
-//         break;
-//     default:
-//         dayName = "Invalid day";
-// }
+/*--------------------------Switch --------------------------------*/
 
-// console.log(dayName); 
+let day = 3;
+let dayName;
+
+switch (dayName) {
+    case 1:
+        dayName = "Monday";
+        break;
+    case 2:
+        dayName = "Tuesday";
+        break;
+    case 3:
+        dayName = "Wednesday";
+        break;
+    case 4:
+        dayName = "Thursday";
+        break;
+    case 5:
+        dayName = "Friday";
+        break;
+    default:
+        dayName = "Invalid day";
+}
+
+console.log(day); 
 
 //IF
 // var cold=false
@@ -29,7 +32,7 @@
 // if(cold==false){
 //     console.log("Eat Ice cream")
 // }
-
+ 
 
 //else if
 
@@ -44,3 +47,7 @@ if (temperature > 30) {
 } else {
     console.log("It's cold. Stay warm indoors!");
 }
+
+
+
+console.log("Hi")

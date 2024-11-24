@@ -26,7 +26,6 @@ console.log(movie("Brother"))
 function movie(){
     return "Blody Begger"
 }
-
 console.log(movie())
 
 
@@ -59,16 +58,16 @@ greeting("Arjun")
 
 //Callback function
 function bill(){
-    console.log("620 Rs");
+    console.log("1620 Rs");
 }
 function Cart(bill){
-    console.log("Laptop bag - Roadster")
+    console.log("Laptop bag - DELL")
     bill()
 }
 Cart(bill)
 
 
 //IIFE
-(function() {
-    console.log("This function runs immediately!");
-  })();
+// (function() {
+//     console.log("This function runs immediately!");
+//   })();
