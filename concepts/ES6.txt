@@ -40,7 +40,7 @@ fruits.forEach(function(fruit,index){
 })
 
 
-Filter function
+//Filter function
 let numbers=[25,17,34,62,59,90,1]
 
 var above50=numbers.filter(function(value){
@@ -54,7 +54,7 @@ var above50=numbers.filter(function(value){
 console.log(above50)
 
 
-Map function
+//Map function
 var biscuits=["GoodDay","Orea","MarieGold","Hide & Seek","Unibic"]
 
 biscuits.map(function(item){
