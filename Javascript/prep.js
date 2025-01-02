@@ -36,14 +36,40 @@
 // console.log(findLen(num)); // Output: 6
 // console.log(revArr(num));  // Output: [4, 6, 8, 7, 5, 1]
 
+//Sort array without using SORT()
+//----------------------------------------------------------------------------------
+
+
+let age = [12, 25, 6, 56, 45, 34];
+
+for (let i = 0; i < age.length; i++) {
+
+    //i=0,1,2,3,4
+
+    for (let j = 0; j < age.length - 1; j++) {
+        if (age[j] > age[j + 1]) {
+            // Swap the elements
+            let temp = age[j];
+            age[j] = age[j + 1];
+            age[j + 1] = temp;
+        }
+    }
+}
+
+console.log("Sorted array:", age);
+
+
 
 
 // let numbers=[14,58,24,72,65]
+
+
+
 // console.log(numbers.sort())
 
 
 
-let fruit=["Grapes","Mango","Orange","PineApple","Guava","Apple"]
+// let fruit=["Grapes","Mango","Orange","PineApple","Guava","Apple"]
 // console.log(fruit.length)
 
 //Find index of element 
@@ -72,30 +98,36 @@ let fruit=["Grapes","Mango","Orange","PineApple","Guava","Apple"]
 // console.log(x)
 
 
+//find min and max in array
+//--------------------------------------------------------------------------------
 
 
-let age=[12,25,36,27,6,74]
-
-// console.log("Maximum",Math.max(...age))
-// console.log("Minimum",Math.min(...age))
-let minAge=age[0]  //12
-// let maxAge=age[0]  //12
 
 
-for (let i=1;i<age.length;i++){
+// let age=[12,25,36,27,6,74]
+
+// // console.log("Maximum",Math.max(...age))
+// // console.log("Minimum",Math.min(...age))
+// let minAge=age[0]  //12
+// // let maxAge=age[0]  //12
+
+
+// for (let i=1;i<age.length;i++){
   
-    //find min number
-    if(age[i]<minAge){
-        minAge=age[i]
+//     //find min number
+//     if(age[i]<minAge){
+//         minAge=age[i]
        
-    }
+//     }
     
-    //25<12  12 
-    //36<12 12
-    //27<12 12
-    //6<12  6
-    //74<6  74
-}
+//     //25<12  12 
+//     //36<12 12
+//     //27<12 12
+//     //6<12  6
+//     //74<6  74
 
-console.log("Minmum age: ",minAge)
+//     //find max number
+// }
+
+// console.log("Minmum age: ",minAge)
 
