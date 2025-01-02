@@ -57,14 +57,38 @@ var greeting=(guest)=>{
 greeting("Arjun")
 
 //Callback function
-function bill(){
-    console.log("1620 Rs");
-}
+
 function Cart(bill){
     console.log("Laptop bag - DELL")
     bill()
 }
+function bill(){
+    console.log("1620 Rs");
+}
 Cart(bill)
+
+
+//Callback example -2
+
+// Define a function that takes a callback
+function greetUser(name, callback) {
+    console.log(`Hello, ${name}!`);
+    // Call the callback function
+    callback();
+}
+
+// Define the callback function
+function showWelcomeMessage() {
+    console.log("Welcome to our learning platform!");
+}
+
+// Call the main function and pass the callback
+greetUser("Alice", showWelcomeMessage);
+
+
+
+
+
 
 
 //IIFE
