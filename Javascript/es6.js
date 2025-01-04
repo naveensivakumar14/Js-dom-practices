@@ -1,17 +1,29 @@
-
-let players=["Virat","Rohit","Ashwin"]
-
-let match=function(players){
-    console.log(players)
-}
-match(players)
-
+/*
+arrow functions
+callback 
+destructure
+class and objects
+*/
 
 
-var msg=(name)=>{
-    console.log("Welcome ",name)
-}
-msg("Rajini")
+
+
+
+// let players=["Virat","Rohit","Ashwin"]
+
+
+//anonymous function
+// let match=function(players){
+//     console.log(players)
+// }
+// match(players)
+
+
+// //arrow function
+// var msg=(name)=>{
+//     console.log("Welcome ",name)
+// }
+// msg("Rajini")
 
 // for(i=0;i<players.length;i++){
 //     console.log(players[i])
@@ -37,17 +49,17 @@ msg("Rajini")
 
 
 //class and object
-class drink{
-    constructor (name,price){
-        this.name=name
-        this.price=price
-    }
-}
+// class drink{
+//     constructor (name,price){
+//         this.name=name
+//         this.price=price
+//     }
+// }
 
-let drink1=new drink("mint",60)
-let drink2= new drink("oreoShake",80)
-console.log(drink1)
-console.log(typeof(drink))
-console.log(typeof(drink1))
-console.log(drink2)
-console.log(drink2.name)
+// let drink1=new drink("mint",60)
+// let drink2= new drink("oreoShake",80)
+// console.log(drink1)
+// console.log(typeof(drink))
+// console.log(typeof(drink1))
+// console.log(drink2)
+// console.log(drink2.name)

@@ -1,0 +1,13 @@
+
+What is callbakc function?
+A function that is passed as an argument inside an another fucnction is called callback function
+
+function interview(name,job){
+    console.log(`Hi, ${name} Your cleared our interview`)
+    job(name)
+}
+
+function job(name){
+    console.log("welcome to our team", name)
+}
+interview("Naveen",job)
