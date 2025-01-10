@@ -1,6 +1,7 @@
 **JavaScript Practice**
 
-JavaScript Self learning
+JavaScript Self learning,
+interview preps
 
 
 1.Variables and Data Types
