@@ -131,3 +131,24 @@ console.log("Sorted array:", age);
 
 // console.log("Minmum age: ",minAge)
 
+
+//maximum number of the given array
+let arr=[22,15,28,46,59,34]
+let maxNum=arr[0]
+
+for (let i=0;i<arr.length;i++){
+    //find max number in array
+    if(arr[i]>maxNum){
+        maxNum=arr[i]
+    }
+}
+console.log(maxNum)
+
+/* execution
+22>22 f mn=22
+15>22 f mn=22
+28>22 t mn=28
+46>28 t mn=46
+59>46 t mn=59
+34>59 f mn=59
+*/
