@@ -152,3 +152,9 @@ console.log(maxNum)
 59>46 t mn=59
 34>59 f mn=59
 */
+
+
+let arrMap=[25,35,65,41,87,12]
+
+console.log(arrMap)
+console.log(arrMap.sort())
