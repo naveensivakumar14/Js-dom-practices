@@ -157,4 +157,4 @@ console.log(maxNum)
 let arrMap=[25,35,65,41,87,12]
 
 console.log(arrMap)
-console.log(arrMap.sort())
+console.log(`Sorted array: ${arrMap.sort()}`)
