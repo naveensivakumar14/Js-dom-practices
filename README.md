@@ -1,6 +1,6 @@
 **JavaScript Practice**
 
-JavaScript Self learning,
+JavaScript Self-learning,
 interview preps
 
 
