@@ -1,4 +1,4 @@
-**JavaScript Practice**
+# JavaScript
 
 JavaScript Self-learning,
 interview preps
