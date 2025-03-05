@@ -63,3 +63,9 @@ class and objects
 // console.log(typeof(drink1))
 // console.log(drink2)
 // console.log(drink2.name)
+
+let age=[12,18,35,27,90]
+
+age.map((item)=>{
+    console.log(item)
+})
