@@ -41,7 +41,7 @@ function add(a,b){
 }
 add(2,4)
 
-//Anonymous functions
+//Anonymous function
 console.log("\nAnonymous function")
 const vote = function(age) {
     console.log(age >= 18 ? "Eligible to Vote" : "Underage");
@@ -50,7 +50,7 @@ vote(20)
 vote(12)
 
 //Arrow functions 
-console.log("\nArrow function")
+console.log("\nArrow function\n")
 var greeting=(guest)=>{
     console.log("Welcome ",guest);
 }
