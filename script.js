@@ -13,20 +13,23 @@
 
 
 //ForEach method
+console.log("\nFor Each")
 let fruits=["Orange","Apple","Grapes"]
-
 fruits.forEach(function(fruit,index){
+    
+
+    console.log(fruit)
     
     if(fruit=="Apple"){
         console.log(index)
     }
-
-    console.log(fruit)
     
 })
 
 
+
 //Filter function
+console.log("\nFilter Function")
 let numbers=[25,17,34,62,59,90,1]
 
 var above50=numbers.filter(function(value){
@@ -41,16 +44,19 @@ var above50=numbers.filter(function(value){
 console.log(above50)
 
 
-//Map function
-var biscuits=["GoodDay","Orea","MarieGold","Hide & Seek","Unibic"]
 
+//Map function
+console.log("\nMap Function")
+
+
+var biscuits=["GoodDay","Orea","MarieGold","Hide & Seek","Unibic"]
 biscuits.map(function(item){
     console.log(item)
 })
 
 
+console.log("\nMap function with variable")
 var colors=["Red","Black","Green","Orange","Yellow","Blue"]
-
 var selectedColors=colors.map(function(color){
     if(color=="Black"){
         console.log("Your",color,"color shirt is available")
