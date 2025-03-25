@@ -66,3 +66,9 @@ var selectedColors=colors.map(function(color){
 selectedColors
 
 
+var score=[48,94,85,36,64,72]
+
+console.log(score)
+ 
+var order=score.sort()
+console.log(order)
