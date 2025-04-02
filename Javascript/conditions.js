@@ -27,12 +27,14 @@ switch (dayName) {
 console.log(day); 
 
 //IF
-// var cold=false
+var cold=false
 
-// if(cold==false){
-//     console.log("Eat Ice cream")
-// }
+if(cold==false){
+    console.log("Eat Ice cream")
+}
  
+
+
 
 //else if
 
@@ -49,5 +51,3 @@ if (temperature > 30) {
 }
 
 
-
-console.log("Hi")
