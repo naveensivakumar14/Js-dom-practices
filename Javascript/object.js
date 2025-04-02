@@ -1,6 +1,6 @@
 //Objects
 
-let dinnerMenu={Mon:"Brinjii",Tues:"Idlii",Wednes:"Pulav",Thurs:"Dosa",Fri:"Upma"}
+let dinnerMenu={Mon:"Pongal",Tues:"Idlii",Wednes:"vegPulav",Thurs:"Dosa",Fri:"Upma"}
 for (let day in dinnerMenu){
     console.log("Day: ",day,"   Food: ",dinnerMenu[day])
 }
@@ -11,9 +11,10 @@ var {Mon,Tues,Wednes,Thurs,Fri}=dinnerMenu
 console.log(Mon,Fri)
 
 //destructuring obejct
-var person={name:"Sanjay",age:22,name:"Aswin",age:26}
-var {name,name}=person
-var {age,age}=person
+var students={
+    student1:{name:"Aswin",age:22},
+    student2:{name:"Murali",age:26},
+}
 
-console.log(name)
-console.log(age)
+console.log(students)
+console.log(typeof(students))
