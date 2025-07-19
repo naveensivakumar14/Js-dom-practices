@@ -10,7 +10,7 @@ interview preps
 4. Control Structures (If/Else, Switch)
 5. Loops (For, While, Do-While)
 6. Objects and Arrays
-7. DOM Manipulation
+7. DOM Manipulations
 8. Event Handling
 9. Closures
 10. Promises
