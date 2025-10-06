@@ -25,3 +25,7 @@ interview preps
 19. Error Handling (Try/Catch)
 20. JSON (JavaScript Object Notation)
 
+# JavaScript Restart 
+
+Start Date: 6-10-2025
+
