@@ -1,8 +1,4 @@
-var amount=90
+let a="Naveen"
 
-if (amount>100){
-    console.log("Expensive")
-}
-else(
-    console.log("Affordable")
-)
+//Template literals
+console.log(`${a} is a Web developer`)
