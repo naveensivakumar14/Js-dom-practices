@@ -1,4 +1,4 @@
-# JavaScript
+# JavaScript Self Phase
 
 JavaScript Self-learning,
 interview preps
