@@ -48,21 +48,21 @@ class and objects
 // console.log(gender)
 
 
-//class and object
-// class drink{
-//     constructor (name,price){
-//         this.name=name
-//         this.price=price
-//     }
-// }
+// class and objects
+class drink{
+    constructor (name,price){
+        this.name=name
+        this.price=price
+    }
+}
 
-// let drink1=new drink("mint",60)
-// let drink2= new drink("oreoShake",80)
-// console.log(drink1)
-// console.log(typeof(drink))
-// console.log(typeof(drink1))
-// console.log(drink2)
-// console.log(drink2.name)
+let drink1=new drink("mint",60)
+let drink2= new drink("oreoShake",80)
+console.log(drink1)
+console.log(typeof(drink))
+console.log(typeof(drink1))
+console.log(drink2)
+console.log(drink2.name)
 
 let age=[12,18,35,27,90]
 
