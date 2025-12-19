@@ -1,7 +1,23 @@
-const cart=["Cake","Soap","Wheat","Carot"]
 
-console.log(cart)
-cart.push("Pineapple")
-console.log(cart)
-cart.unshift("Cabbage")
-console.log(cart)
+// Initialize an empty basket
+const basket=[];
+
+// Function to add items to the basket
+function addToBasket(item){
+    basket.push(item);
+    console.log(`${item} added to basket.$`);
+}
+
+// Adding items to the basket
+addToBasket (["Appple","wheat bread","milk","eggs","soya chunks"]);
+
+// View basket items
+function viewBasket(){
+    console.log("Items in basket:");
+    basket.forEach((item, index) => {
+        console.log(`${index + 1}. ${item}`);
+    }); 
+}
+
+viewBasket();      
+

@@ -9,43 +9,43 @@ class and objects
 
 
 
-// let players=["Virat","Rohit","Ashwin"]
+let players=["Virat","Rohit","Ashwin"]
 
 
-//anonymous function
-// let match=function(players){
-//     console.log(players)
-// }
-// match(players)
+// anonymous function
+let match=function(players){
+    console.log(players)
+}
+match(players)
 
 
-// //arrow function
-// var msg=(name)=>{
-//     console.log("Welcome ",name)
-// }
-// msg("Rajini")
+//arrow function
+var msg=(name)=>{
+    console.log("Welcome ",name)
+}
+msg("Rajini")
 
-// for(i=0;i<players.length;i++){
-//     console.log(players[i])
-// }
+for(i=0;i<players.length;i++){
+    console.log(players[i])
+}
 
-// players.forEach((player)=>{
-//     console.log(player)
-// })
+players.forEach((player)=>{
+    console.log(player)
+})
 
 
 //Destructure
 
-// let user={
-//     name:"Ajay",
-//     age: 25,
-//     gender: "male"
-// }
-// console.log(user)
-// var {name,age,gender}=user
-// console.log(name)
-// console.log(age)
-// console.log(gender)
+let user={
+    name:"Ajay",
+    age: 25,
+    gender: "male"
+}
+console.log(user)
+var {name,age,gender}=user
+console.log(name)
+console.log(age)
+console.log(gender)
 
 
 // class and objects
@@ -64,8 +64,8 @@ console.log(typeof(drink1))
 console.log(drink2)
 console.log(drink2.name)
 
-let age=[12,18,35,27,90]
+let a=[12,18,35,27,90]
 
-age.map((item)=>{
+a.map((item)=>{
     console.log(item)
 })
