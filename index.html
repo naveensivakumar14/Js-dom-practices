@@ -26,34 +26,9 @@
     <button onclick="changeBg()">Change</button>
 
     <script>
-
-        getElementsById
-        var firstPara=document.getElementById("text");
-        console.log(firstPara.textContent)
-
-         querySelector
-         var cityname=document.querySelector(".city1")   //using class selector
-         var company=document.querySelector("#text")    //using id selector
-         var cvs=document.querySelector("p")            //using tag name
-         console.log(cityname.textContent)
-         console.log(company.textContent)
-         console.log(cvs.textContent)
-
-        getElementsByClassName
-        var city=document.getElementsByClassName("city1");
-        console.log(city[0].textContent)
-        var city2=document.getElementsByClassName("city2");
-        console.log(city2[0].textContent)
-
-        getElementsByTagName
-        var listItems=document.getElementsByTagName("li");
-        for(var i=0;i<listItems.length;i++){
-            console.log("using getElementsByTagName - ",listItems[i].textContent)
-        }
-
         var box=document.getElementById("box")
         function changeBg(){
-            box.style.backgroundColor="yellow"
+            box.style.backgroundColor="cyan"
         }
     </script>
 </body>
