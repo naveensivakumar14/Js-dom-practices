@@ -1,24 +1,24 @@
+//swap variables a and b
 
-// Initialize an empty basket
-const basket=[];
+let a=10
+let b=20
 
-// Function to add items to the basket (function definition)
-function addToBasket(item){
-    basket.push(item);
-    console.log(`${item} added to basket.$`);
-}
+//using third variable
+c=a
+a=b
+b=c
+console.log("Using third variable")
+console.log("a=",a)
+console.log("b=",b)
 
-// Adding items to the basket (function calls)
-addToBasket (["Appple","wheat bread","milk","eggs","soya chunks"]);
 
-// View basket items
-function viewBasket(){
-    console.log("Items in basket:");
-    basket.forEach((item, index) => {
-        
-        console.log(`${index + 1}. ${item}`);
-    }); 
-}
+//not using third variable
 
-viewBasket();      
+
+a=a+b //10+20=30
+b=a-b //30-20=10       
+a=a-b //30-10=20      
+console.log("Not using third variable")
+console.log("a=",a)
+console.log("b=",b)
 

@@ -10,6 +10,9 @@
     <h2 id="text">Walgreens</h2>
     <h3 class="city1">Cambridge</h3>
     <h3 class="city2">Boston</h3>
+    <h4>Cincinnati</h4>
+    <h5>Springfield</h5>
+    <h6>Worcester</h6>
     <p>Welcome to CVS Pharmacy</p>
 
     <ul>
@@ -25,17 +28,6 @@
     </div>
     <button onclick="changeBg()">Change</button>
 
-    <script>
-        var box=document.getElementById("box")
-        function changeBg(){
-            box.style.backgroundColor=randomColor();
-        }
-        function randomColor(){
-            var red=Math.floor(Math.random()*256);
-            var green=Math.floor(Math.random()*256);
-            var blue=Math.floor(Math.random()*256);
-            return `rgb(${red}, ${green}, ${blue})`;
-        }
-    </script>
+  
 </body>
 </html>
