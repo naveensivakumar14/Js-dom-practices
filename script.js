@@ -1,11 +1,13 @@
+let amount=[200,150,300,400,250];
 
-//variables
 
-let x=5;
-let y=5;
+for(let i=0;i<amount.length;i++){
+    if(amount[i]>200){
+        console.log("Product price is high:",amount[i]);
 
-console.log(x+y);
+    }else{
+        console.log("Product price is low:",amount[i]);
+    }
 
-let admin="Kumar"
-console.log(admin.length);
+}
 
