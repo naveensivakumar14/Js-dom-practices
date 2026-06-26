@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS DOM</title>
+    
 </head>
 <body>
 
@@ -26,7 +27,19 @@
     <div id="box">
         <p style="padding: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, repudiandae ullam nostrum deserunt, sapiente dolorum reiciendis blanditiis perspiciatis quos possimus facilis voluptatum recusandae, magni voluptate dolor labore exercitationem commodi vero?</p>
     </div>
-    <button onclick="changeBg()">Change</button>
+    <button onclick="changeColor()">Change</button>
+
+    <script >
+        
+       //function to change random background color of id box
+        function changeColor(){
+            const box = document.getElementById("box");
+            const randomColor = Math.floor(Math.random()*16777215).toString(16);
+            box.style.backgroundColor = "#" + randomColor;
+        }
+      
+
+    </script>
 
   
 </body>
